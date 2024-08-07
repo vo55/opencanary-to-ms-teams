@@ -1,6 +1,6 @@
 # Opencanary to MS Teams
 Opencanary to MS Teams is a small python script that will listen to the canary log and forward the contents to Microsoft Teams via the incoming webhook connector.
-
+By default, opencanary itself supports MS Teams Webhooks as well and should be the preferred solution. If for any reason you want to customize the card further, this script should help.
 
 ### Setup
 _Currently each logline is sent as an individual message to MS Teams. Upon start of the listener this might produce a few more events depending on the log. You might want to clear the log first._
